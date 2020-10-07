@@ -1,0 +1,176 @@
+body{
+	font-family: sans-serif;
+	background-color: white;
+}
+body p{
+	font-size: 0.8em;
+	line-height: 1.28;
+}
+
+#wrapper{
+	width: 100%;
+	width: 1892px;
+	height: 1000px;
+	margin-left: -8px;
+	margin-top: -21px;
+	background-image: url(https://www.freevector.com/uploads/vector/preview/19911/Free_Sunset_Background_Vector.png);
+	background-size: 2000px 1000px;
+	background-repeat: no-repeat;
+}
+
+#banner{
+	/*background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-city-building-houses-house-image_48366.jpg);*/
+	background-size: contain;
+	border: 0px solid #dedede;
+	height: 100px;
+	text-align: center;
+	line-height: 500px;
+	color: white;
+}
+
+a:link {
+    text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+    text-decoration:none;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration:none;
+}
+
+/* selected link */
+a:active {
+    text-decoration:none;
+}
+
+#content_area{
+	float: left;
+	width: 750px;
+	margin: 20px 0 20px 0;
+	padding: 10px;
+}
+
+.searchbox{
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 100px;
+	width: 900px;
+	margin-top:-120px; 
+  	margin-left:-460px;
+	padding: 10px;
+	border-radius: 30px;
+
+}
+
+.searchbox input{
+	position: absolute;
+	top: 10%;
+	left: 47px;
+	margin-top:-120px; 
+  	margin-left:-460px;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+.searchbutton{
+	position: absolute;
+	top: 394px;
+	left: 1370px;
+	height: 60px;
+	width: 100px;
+	padding: 10px;
+	border-radius: 25px;
+	cursor: pointer;
+	text-decoration: none;
+	background-color: steelblue;
+	border: 0;
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+}
+
+#footer{
+	clear: both;
+	width: auto;
+	height: 40px;
+	padding: 10px;
+	border: 3px solid #e3e3e3;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0.1em 0.1em #333;
+	background-image: url(https://thumbs.dreamstime.com/t/green-web-site-header-footer-background-green-web-site-header-footer-background-abstract-design-template-100375150.jpg);
+}
+
+#navigation{
+	height: 60px;
+	border: 2px solid #0000FF;
+	margin: -10px -8.4px -10px -10px;
+	text-shadow: 0.1em 0.1em #333;
+	background-image: url(https://stuartfamilydental.com/wp-content/uploads/2018/02/insurance-footer-background.png);
+}
+
+#nav{
+	list-style: none;
+}
+
+#nav ul{
+	
+	width: auto;
+	display: none;
+}
+
+#nav li{
+	font-size: 24px;
+	float: left;
+	position: relative;
+	width: 180px;
+	height:50px;
+}
+
+#nav a:link, nav a:active, nav a:visited {
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+#nav a:hover {
+	color:#00f2ff;
+}
+
+.imgLeft{
+	float: left;
+	width: 240px;
+	height: 150px;
+	margin: 0px 10px 10px 0;
+	padding: 10px;
+}
+
+.imgRight{
+	float: right;
+	width: 240px;
+	height: 150px;
+	margin: 0px 10px 10px 0;
+	padding: 10px;
+}
+
+input[type=text]{
+	width: 90%;
+	height: 50%;
+	border: 2px solid #aaa;
+	margin :8px 0;
+	border-radius: 25px;
+	outline: none;
+	box-sizing: border-box;
+
+}
+
+input[type=text]:focus{
+	border-color: royalblue;
+	box-shadow: 0 0 8px 0 dodgerblue;
+}
