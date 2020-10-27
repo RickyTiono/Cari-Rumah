@@ -22,9 +22,9 @@ body p{
 	/*background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-city-building-houses-house-image_48366.jpg);*/
 	background-size: contain;
 	border: 0px solid #dedede;
-	height: 100px;
+	height: 60px;
 	text-align: center;
-	line-height: 500px;
+	line-height: 100px;
 	color: white;
 }
 
@@ -78,9 +78,9 @@ a:active {
 	border-radius: 30px;
 }
 
-.searchbutton{
+button{
 	position: absolute;
-	top: 394px;
+	top: 384px;
 	left: 1370px;
 	height: 60px;
 	width: 100px;
@@ -95,16 +95,16 @@ a:active {
 	font-size: 16px;
 }
 
-#footer{
-	clear: both;
-	width: auto;
-	height: 40px;
-	padding: 10px;
-	border: 3px solid #e3e3e3;
-	text-align: center;
-	color: #fff;
-	text-shadow: 0.1em 0.1em #333;
-	background-image: url(https://thumbs.dreamstime.com/t/green-web-site-header-footer-background-green-web-site-header-footer-background-abstract-design-template-100375150.jpg);
+.footer{
+	position: absolute;
+	height: 80px;
+	width: 800px;
+   	margin: 0 auto;
+   	bottom: -95px;
+   	right: 28%;
+   	background-color: slategray;
+   	color: white;
+   	text-align: center;
 }
 
 #navigation{
