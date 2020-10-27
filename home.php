@@ -1,48 +1,41 @@
 <?php
 
-session_start();
+#session_start();
+include 'header.php';
+#$conn = new mysqli("localhost", "root","","projectmtt");
+#if($conn->connect_error) {
+	#echo "Unable to connect, please try again";
+	#die();
+#}
+
 ?>
 
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title><?php echo $title; ?></title>
-		<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	</head>
-	<body>
 		
 			<nav id="navigation">
 				<ul id="nav">
 					<li><a href="home.php">Cari Rumah</a></li>
-					<li style="float:right;"><a href="login.php">Register</a></li>
-					<li style="float:right;"><a href="register.php">Login</a></li>
+					<li style="float:right;"><a href="register.php">Register</a></li>
+					<li style="float:right;"><a href="login.php">Login</a></li>
 				</ul>
 			</nav>
 
 			<div id="wrapper">
   					
-  					<div id="banner">
-  					<h1> Carilah tempat tinggal impianmu </h1>
+  				<div id="banner">
+  					<form action="search.php" method="post">
+  					<h1> Carilah tempat tinggal impianmu. </h1>
   					<div class="searchbox">
-  						<input type="text" name="lokasi" placeholder="Cari provinsi atau kota">
+  						<input type="text" name="search" placeholder="Cari kota">
   					</div>
-  					<input type="button" class="searchbutton" value="Search">
-
+  					<button type="submit" name="searchbutton">Search</button>
+					</form>
   				</div>
-			</div>
 
-			<div id="content_area">
-				<?php echo $content; ?>
-			</div>
-
-			<div id="sidebar">
+  				<div class="footer">
+				<p>160418040</p>
 				
-			</div>
-
-			<footer>
-				<p>s160418040</p>
-			</footer>
+				</div>
 		
-	</body>
-</html>
+			</div>
+		
+		
