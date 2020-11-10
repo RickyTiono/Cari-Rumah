@@ -1,6 +1,6 @@
 <?php
 
-#session_start();
+session_start();
 include 'header.php';
 #$conn = new mysqli("localhost", "root","","projectmtt");
 #if($conn->connect_error) {
@@ -11,13 +11,7 @@ include 'header.php';
 ?>
 
 		
-			<nav id="navigation">
-				<ul id="nav">
-					<li><a href="home.php">Cari Rumah</a></li>
-					<li style="float:right;"><a href="register.php">Register</a></li>
-					<li style="float:right;"><a href="login.php">Login</a></li>
-				</ul>
-			</nav>
+			
 
 			<div id="wrapper">
   					

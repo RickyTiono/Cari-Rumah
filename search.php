@@ -1,16 +1,12 @@
 <?php
+session_start();
+
 include 'header.php';
 ?>
 
 
 
-<nav id="navigation">
-				<ul id="nav">
-					<li><a href="home.php">Cari Rumah</a></li>
-					<li style="float:right;"><a href="register.php">Register</a></li>
-					<li style="float:right;"><a href="login.php">Login</a></li>
-				</ul>
-			</nav>
+
 <h1>Search Page</h1>
 <div class="search-container">
 				<?php
