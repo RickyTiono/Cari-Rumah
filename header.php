@@ -16,6 +16,7 @@ include 'dbh.php';
 					<?php
 					if (isset($_SESSION["name"])) {
 						echo "<li style='float:right;'><a href='logout.php'>Log Out</a></li>";
+						echo "<li style='float:right;'><a href='admin.php'>Add House</a></li>";
 					}else{
 						echo "<li style='float:right;'><a href='register.php'>Register</a></li>";
 						echo "<li style='float:right;'><a href='login.php'>Login</a></li>";
